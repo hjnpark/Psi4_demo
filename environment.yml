@@ -1,8 +1,14 @@
 name: psi4demo
 channels:
-  - defaults
+    - psi4
+    - conda-forge
+    - defaults
 dependencies:
-  - python=3.10 
-  - nglview
-  - pip:
-    - "git+https://github.com/MolSSI/QCFractal.git@v0.50b6#egg=qcportal&subdirectory=qcportal"
+    - python=3.9
+    - psi4=1.6.1
+    - numpy>=1.22.3,<1.23.0
+    - matplotlib
+    - jupyterlab
+    - pip:
+        - pythreejs
+        - fortcubeview
