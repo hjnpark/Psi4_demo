@@ -12,3 +12,4 @@ dependencies:
     - pip:
         - pythreejs
         - fortecubeview
+        - scikit-image
